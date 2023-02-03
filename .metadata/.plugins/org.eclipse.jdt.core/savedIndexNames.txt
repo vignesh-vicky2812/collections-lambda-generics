@@ -1,1 +1,3 @@
-INDEX VERSION 1.131+C:\Users\DELL\Desktop\JUnit Testing\collections-lambda-generics\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.131+C:\Users\DELL\Desktop\collections-lambda-generics\.metadata\.plugins\org.eclipse.jdt.core
+1380570482.index
+2341631927.index
