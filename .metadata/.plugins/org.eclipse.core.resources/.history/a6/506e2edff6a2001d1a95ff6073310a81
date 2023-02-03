@@ -1,0 +1,16 @@
+package com.vignesh.lambda;
+
+interface MyFunInterface2 {
+	public void funMethodAdd(int a, int b);
+}
+
+
+
+public class LambdaExample2 {
+
+	public static void main(String[] args) {
+		MyFunInterface funInter = (a, b) -> System.out.println(a + b);
+		funInter.funMethodAdd(5, 10);
+
+	}
+}

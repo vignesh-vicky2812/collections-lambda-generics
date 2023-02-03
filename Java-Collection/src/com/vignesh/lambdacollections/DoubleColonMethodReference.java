@@ -1,0 +1,36 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonMethodReference {
+
+	public static void main(String[] args) {
+
+		MyFunInterfaceNew funInter = () -> System.out.println("hello");
+		funInter.method1();
+
+	}
+
+	public static void method2() {
+		System.out.println("Im not on lambda");
+	}
+
+	public void method3() {
+		System.out.println("Im on method3");
+	}
+
+}
+
+interface MyFunInterfaceNew {
+	public void method1();
+}
+
+class NewCallerClass {
+	public static void main(String[] args) {
+		MyFunInterfaceNew i = DoubleColonMethodReference::method2; // method arguments has to be same
+		i.method1();
+
+		DoubleColonMethodReference obj = new DoubleColonMethodReference();
+		MyFunInterfaceNew i1 = obj::method3; // for non static method
+		i1.method1();
+
+	}
+}

@@ -1,0 +1,26 @@
+package com.vignesh.lambda;
+
+public class LambdaIntroduction {
+
+	public static void main(String[] args) {
+		MyFunctionalInterface funInter = new MyFunctionalInterface() {
+			public 
+			
+		};
+		funInter.funMethod();
+	}
+
+}
+
+interface MyFunctionalInterface {
+	public void funMethod();
+}
+
+class CallFunInterface implements MyFunctionalInterface {
+
+	@Override
+	public void funMethod() {
+	    System.out.println("Functional method");
+	}
+
+}

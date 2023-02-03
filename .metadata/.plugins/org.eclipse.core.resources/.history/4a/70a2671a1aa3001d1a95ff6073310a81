@@ -1,0 +1,13 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonMethodReference {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+interface MyFunInterfaceNew {
+	public void method1();
+}

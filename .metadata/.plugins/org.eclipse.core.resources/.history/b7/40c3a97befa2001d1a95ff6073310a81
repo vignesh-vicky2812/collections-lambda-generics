@@ -1,0 +1,14 @@
+package com.vignesh.lambda;
+
+public class LambdaIntroduction {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+
+interface MyFunctionalInterface{
+	public void funMethod();
+}

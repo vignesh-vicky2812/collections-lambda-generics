@@ -1,0 +1,10 @@
+package com.vignesh.lambdacollections;
+
+public class SortingListWithoutLambda {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		
+	}
+
+}

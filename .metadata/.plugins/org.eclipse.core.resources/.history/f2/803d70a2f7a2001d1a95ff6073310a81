@@ -1,0 +1,14 @@
+package com.vignesh.lambda;
+
+interface MyFunInterface3 {
+	public int doSomeCalculation(int a);
+}
+
+
+
+public class LambdaExample3 {
+
+	public static void main(String[] args) {
+		MyFunInterface3 funInter = (a) -> a.length();
+	}
+}

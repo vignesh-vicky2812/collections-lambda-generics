@@ -1,0 +1,13 @@
+package com.vignesh.lambdacollections;
+
+import java.util.function.Consumer;
+import java.util.function.Supplier;
+
+public class SupplierExample {
+
+	public static void main(String[] args) {
+		Supplier<String> s = () -> "supplying string and consuming nothing";
+		System.out.println(s.get());
+	}
+
+}

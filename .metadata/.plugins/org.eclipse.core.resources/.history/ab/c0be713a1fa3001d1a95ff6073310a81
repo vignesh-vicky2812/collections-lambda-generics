@@ -1,0 +1,11 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonConstructorReference {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}

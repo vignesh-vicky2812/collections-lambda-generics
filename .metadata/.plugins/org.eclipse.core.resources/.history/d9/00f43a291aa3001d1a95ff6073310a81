@@ -1,0 +1,15 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonMethodReference {
+
+	public static void main(String[] args) {
+		
+		MyFunInterfaceNew funInter = ()->System.out.println("hello");
+
+	}
+
+}
+
+interface MyFunInterfaceNew {
+	public void method1();
+}

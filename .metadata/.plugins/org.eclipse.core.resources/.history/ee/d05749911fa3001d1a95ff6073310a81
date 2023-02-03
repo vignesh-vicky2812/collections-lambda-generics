@@ -1,0 +1,24 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonConstructorReference {
+
+	public static void main(String[] args) {
+
+		Details d = Student::new;
+		Student s = d.getStudent("Meena");
+
+	}
+
+}
+
+class Student {
+
+	Student(String name) {
+		System.out.println(name + " is successful enrolled");
+	}
+
+}
+
+interface Details {
+	public Student getStudent();
+}

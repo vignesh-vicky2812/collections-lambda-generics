@@ -1,0 +1,21 @@
+package com.vignesh.lambdacollections;
+
+public class DoubleColonConstructorReference {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Student {
+	
+	Student(String name) {
+		System.out.println(name+" is successful");
+	}
+
+}
+
+interface Details {
+	public Student getStudent();
+}

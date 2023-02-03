@@ -1,0 +1,13 @@
+package com.vignesh.lambdacollections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortingListWithoutLambda {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList()<Integer>();
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.vignesh.lambdacollections;
+
+public class PredicateExample {
+	public static void main(String[] args) {
+		int salary = 3000;
+		
+		boolean result = salaryCheck(salary);
+	}
+
+	private static void salaryCheck(int salary) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.vignesh.lambda;
+
+interface MyFunInterface {
+	public void funMethodAdd(int a, int b);
+}
+
+class CallFunInterface1 implements MyFunctionalInterface {
+
+	@Override
+	public void funMethod() {
+		System.out.println("sum of a and b"+a+b);
+	}
+
+}
+
+public class LambdaExample1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+}
