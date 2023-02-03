@@ -22,7 +22,7 @@ public class DataNode<E> {
 		return next;
 	}
 
-	public void setNext(DataNode<E> next) {
+	public void setNext(DataNode<? extends Number> next) {
 		this.next = next;
 	}
 
